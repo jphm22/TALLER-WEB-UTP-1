@@ -1,0 +1,24 @@
+.catalogo-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Espacio entre los productos */
+}
+
+.producto {
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+}
+
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Color del precio */
+}
+.catalogo-section .producto img {
+    width: 200px; /* Define un ancho fijo */
+    height: 200px; /* Define una altura fija */
+    object-fit: cover; /* Cubre el área del contenedor sin perder las proporciones */
+}

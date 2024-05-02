@@ -1,0 +1,10 @@
+section {
+    text-align: center;
+}
+
+iframe {
+    width: 80%; /* ajusta el ancho como desees */
+    height: 450px; /* ajusta la altura como desees */
+    margin: 0 auto; /* centra horizontalmente */
+    display: block; /* asegura que el iframe se centre correctamente */
+}

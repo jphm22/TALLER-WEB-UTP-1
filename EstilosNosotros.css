@@ -1,0 +1,13 @@
+.nosotros-section {
+    text-align: center; /* Centra todo el contenido horizontalmente */
+}
+
+.nosotros-text {
+    max-width: 800px; /* Define un ancho máximo para el texto */
+    margin: 0 auto; /* Centra horizontalmente el texto */
+}
+.logo {
+    width: 25%; /* Reduce el ancho de la imagen a la mitad */
+    height: 25%; /* Mantiene la proporción de la imagen */
+    max-width: 25%; /* Ajusta el ancho máximo si es necesario */
+}

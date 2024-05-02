@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7ff; /* Celeste */
+    color: #333; /* Color de texto oscuro */
+    
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #e6f7ff; /* Puedes remover o mantener este color como fallback */
+        background-image: url('8858166-textura-de-fondo-de-circuitos-de-equipo-como-un-diseño.jpg'); /* Ruta a la imagen de fondo */
+        background-size: cover; /* Cubre toda la área disponible */
+        background-position: center; /* Centra la imagen en la página */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+header {
+    background-color: #0066cc; /* Azul */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-icon {
+    margin-left: auto;
+    height: 35px; /* Ajusta esto según el tamaño deseado */
+}
+nav {
+    flex: 1; /* Hace que el elemento nav ocupe todo el espacio disponible menos el que ocupa el img */
+    text-align: center; /* Centra los enlaces dentro del nav */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos li en el nav */
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Texto blanco */
+    padding: 5px 10px;
+}
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento para alinear correctamente */
+}
+nav ul li a:hover {
+    background-color: #004080; /* Azul más oscuro al pasar el mouse */
+}
+
+main {
+    padding: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+section {
+    background-color: #b3d9ff; /* Azul claro */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: #0066cc; /* Azul */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #004080; /* Azul más oscuro al pasar el mouse */
+}
+
+footer {
+    background-color: #0066cc; /* Azul */
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

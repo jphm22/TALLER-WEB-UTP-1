@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo INTECC</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <!-- Encabezado con botones de navegación -->
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="PaginaNosotros.html" target="contenido">Nosotros</a></li>
+                <li><a href="PaginaUbicacion.html" target="contenido">Ubicación</a></li>
+                <li><a href="PaginaCatalogo.html" target="contenido">Catálogo</a></li>
+                <li><a href="PaginaServicios.html" target="contenido">Servicios</a></li>
+            </ul>
+        </nav>
+        <img src="icono.png" alt="Icono" class="header-icon">
+    </header>
+
+    <!-- Contenido principal utilizando frames -->
+    <main>
+        <iframe name="contenido" src="PaginaNosotros.html" frameborder="0" scrolling="auto"></iframe>
+    </main>
+
+    <!-- Formulario de contacto -->
+    <section>
+        <h2>Contáctanos</h2>
+        <form action="enviar.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+            <label for="pedido">Área de pedido:</label>
+            <textarea id="pedido" name="pedido" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Redes sociales -->
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/TuTiendaDeComputadoras"><img src="facebook-icon.png" alt="Facebook"></a></li>
+            <li><a href="https://www.facebook.com/TuTiendaDeComputadoras"><img src="instagram-icon.png" alt="Instagram"></a></li>
+            <li><a href="https://www.facebook.com/TuTiendaDeComputadoras"><img src="whatsapp-icon.png" alt="Whatsapp"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
